@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 body {
     text-align: center;
-    background-color: rgb(236, 193, 3)
+    background-color: rgb(119, 79, 47)
 }
 h1 {
     text-shadow: 1px 1px 2px;
     font-size: 100px;
+    font-family:'Dokdo';
 }
 h2 {
     font-size: 40px;
+    font-family:'Dokdo';
 }
 a {
     font-size: 20px;
+    font-family:'Oswald';
+}
+img {
+    max-width:50%;
+    height:auto;
+}
+p {
+    font-family:'Oswald';
+}
+ul {
+    width: 30px;
+    margin: 0 auto;
 }
