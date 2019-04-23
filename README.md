@@ -1,2 +1,2 @@
 # About cats
-Writing an about me webpage using HTML and CSS
+Writing an about cat webpage using HTML and CSS
