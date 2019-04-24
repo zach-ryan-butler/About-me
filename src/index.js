@@ -1,4 +1,4 @@
-
+import scoreAnswer from './score-answers.js'
 
 const submitButton = document.getElementById('submit-button');
 const activityInput = document.getElementById('activity-question');
@@ -15,5 +15,17 @@ submitButton.addEventListener('click', () => {
     const finalAnswer = finalInput.value;
     const leastAnswer = leastInput.value;
 
+    if(activityAnswer.trim() === '' || colorAnswer.trim() === '' 
+    || popularAnswer.trim() === '' || finalAnswer.trim() === '' 
+    || leastAnswer.trim() === '') {
+        alert('all answers are needed');
+        return;
+    }
+
+    const score = scoreAnswer(activityAnswer, colorAnswer, popularAnswer, finalAnswer, leastAnswer);
+
+    const message = 'You got ' + score + '/5 correct';
+
+    quizResult.textContent = message;
 
 });

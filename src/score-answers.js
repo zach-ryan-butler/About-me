@@ -8,7 +8,7 @@ function scoreAnswer(activityAnswer, colorAnswer, popularAnswer, finalAnswer, le
 
     let score = 0;
 
-    if (activityAnswer === '2') {
+    if (activityAnswer === 'two') {
         score += 1;
     }
 
