@@ -15,5 +15,5 @@ submitButton.addEventListener('click', () => {
     const finalAnswer = finalInput.value;
     const leastAnswer = leastInput.value;
 
-console.log(activityAnswer, colorAnswer, popularAnswer, finalAnswer, leastAnswer);
+
 });
