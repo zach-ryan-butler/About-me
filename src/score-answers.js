@@ -8,21 +8,21 @@ function scoreAnswer(activityAnswer, colorAnswer, popularAnswer, finalAnswer, le
 
     let score = 0;
 
-    if (activityAnswer === 'two') {
+    if(activityAnswer === 'two') {
         score += 1;
     }
 
-    if (colorAnswer === 'white') {
-        score +=1;
+    if(colorAnswer === 'white') {
+        score += 1;
     }
 
-    if (popularAnswer === 'sleeping') {
+    if(popularAnswer === 'sleeping') {
         score += 1;
     }
-    if (finalAnswer === 'black') {
+    if(finalAnswer === 'black') {
         score += 1;
     }
-    if (leastAnswer === 'eating') {
+    if(leastAnswer === 'eating') {
         score += 1;
     }
 

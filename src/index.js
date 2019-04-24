@@ -1,4 +1,4 @@
-import scoreAnswer from './score-answers.js'
+import scoreAnswer from './score-answers.js';
 
 const submitButton = document.getElementById('submit-button');
 const activityInput = document.getElementById('activity-question');
