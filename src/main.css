@@ -28,3 +28,26 @@ ul {
     width: 30px;
     margin: 0 auto;
 }
+label, button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    font-weight: bolder;
+}
+input {
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(7, 47, 158);
+    font-size: 1.2em;
+}
+button {
+    border: 1px solid rgb(7, 47, 158);
+    height: 30px;
+    width: 200px;
+    font-size: 1.2em;
+}
+#quiz-result {
+    font-size: 2.0em;
+}
